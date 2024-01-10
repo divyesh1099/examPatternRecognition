@@ -1,0 +1,5 @@
+matplotlib
+pytesseract
+pillow
+pandas
+pymupdf
