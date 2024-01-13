@@ -1,7 +1,6 @@
-
 # Exam Pattern Recognition
 
-This project, `examPatternRecognition`, is designed to analyze exam question patterns by identifying the weightage of various topics over the years. It processes PDF files containing exam questions, uses OCR to extract text, and then analyzes the data to predict the importance of different topics.
+This project, `examPatternRecognition`, is designed to analyze exam question patterns by identifying the weightage of various topics over the years. It processes PDF files containing exam questions, uses OCR to extract text, and then analyzes the data to predict the importance of different topics using advanced machine learning techniques.
 
 ## Screenshots
 
@@ -13,8 +12,9 @@ This project, `examPatternRecognition`, is designed to analyze exam question pat
 - PDF processing to extract question text and metadata.
 - OCR (Optical Character Recognition) to convert images to text.
 - Data analysis to determine the weightage of topics.
-- Visualization to display the topic weightage in a specified year.
-- Export functionality to save the visualizations.
+- Advanced machine learning models (including Random Forest, Gradient Boosting Machine, SVM, and Neural Networks) for predicting future topic weightages.
+- Visualization to display the topic weightage in a specified year and predictions for future years.
+- Export functionality to save the visualizations and predictions.
 
 ## Getting Started
 
@@ -30,11 +30,13 @@ What things you need to install the software and how to install them:
 - PIL (Pillow)
 - pandas
 - matplotlib
+- scikit-learn
+- TensorFlow
 
 You can install the necessary libraries using `pip`:
 
 ```sh
-pip install fitz pytesseract pillow pandas matplotlib
+pip install fitz pytesseract pillow pandas matplotlib scikit-learn tensorflow
 ```
 
 Make sure that you have Tesseract OCR installed on your system, which pytesseract uses to perform OCR.
@@ -63,13 +65,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-To use this project, replace the placeholder values in the scripts with your actual file paths, topic names, and years of interest.
+To use this project, replace the placeholder values in the scripts with your actual file paths, topic names, and years of interest. 
 
 For detailed instructions, see the comments in the script files.
 
 ## Visualization
 
-This project can generate bar charts representing the weightage of each topic for a specified year. To save a chart, use the `savefig` function in the script.
+This project can generate bar charts representing the historical weightage and predicted weightage of each topic for a specified year. To save a chart, use the `savefig` function in the script.
 
 ## Contributing
 
