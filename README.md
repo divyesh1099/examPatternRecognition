@@ -54,11 +54,7 @@ cd examPatternRecognition
 pip install -r requirements.txt
 ```
 
-4. Run the script with your PDF file:
-
-```python
-python analyze_exam_pattern.py --pdf_path="path_to_your_pdf.pdf"
-```
+4. Run the Jupyter Notebook sequentially from top to bottom. 
 
 ## Usage
 
