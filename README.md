@@ -3,7 +3,8 @@
 This project, `examPatternRecognition`, is designed to analyze exam question patterns by identifying the weightage of various topics over the years. It processes PDF files containing exam questions, uses OCR to extract text, and then analyzes the data to predict the importance of different topics using advanced machine learning techniques.
 
 ## Screenshots
-
+![predicted_values_2023_neural_network](https://github.com/divyesh1099/examPatternRecognition/assets/65925922/ede73bba-7920-43ef-98ee-53498a2b15d6)
+![predicted_values_2023_gbm](https://github.com/divyesh1099/examPatternRecognition/assets/65925922/a659dcea-fc3d-45c5-a9eb-3a30730d2f25)
 ![topic_weightage_chart](https://github.com/divyesh1099/examPatternRecognition/assets/65925922/8a9164c5-bf7d-40de-bd61-22dfcd847238)
 ![PDF Page](https://github.com/divyesh1099/examPatternRecognition/assets/65925922/25d909ee-b827-4622-856d-6a6a7007be86)
 
